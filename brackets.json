@@ -1,0 +1,15 @@
+
+{
+    "brackets-eslint.gutterMarks": true,
+    "brackets-eslint.useLocalESLint": false,
+    "fonts.fontSize": "12px",
+    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+    "themes.theme": "dark-theme",
+    "useTabChar": false,
+    "php": {
+        "enablePhpTooling": true,
+        "executablePath": "/opt/lampstack-8.0.2-0/php/bin/php",
+        "memoryLimit": "4095M",
+        "validateOnType": "false"
+    }
+}

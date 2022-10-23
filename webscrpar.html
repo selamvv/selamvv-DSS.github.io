@@ -1,0 +1,118 @@
+ <!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Dessie Software Services WSCRPAR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+/* Style the inner tabs */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: lightcoral;
+  float: left;
+  border: inset;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  opacity: 70%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  transform: scale(110%);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">	
+                    <li><a href="index.html">Services</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+            
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+				<img src="images/logo.png" style='height: 100%; width: 80%; object-fit: contain; align-content: center;'/>
+					
+				    </div>
+			</article>
+                        <div class="tab">                
+                        <button class="tablinks" onclick="openO(event, 'Description')">Description</button>
+                            <button class="tablinks" onclick="openO(event, 'Pricing')">Pricing</button></div>
+        
+							<div id ="Description" class="tabcontent" >
+								<img src="images/4998529-200.png">
+								<h2>Web Scraping and Parsing</h2>
+                                <p style="color: black;"> Web scraping is a necessisity for a comprehensive digital presence. The collection of information and essential data from across the Internet, also known as web data extraction, screen scraping, or web harvesting.</p>
+                                <p style="color: black;">By scraping organic search results, you can instantly find out competitors' stats, title tags and the keywords that others are using.</p>
+                                
+                                 <p style="color: black; text-align: center;">Dessie Digital Solutions makes it simple to choose a desired formate to recieve accurate comprehnsive data from any website at any scale. Save your time, energy, costs, and resources, partner with DDS.</p>
+                                
+                                <p style="color: black;">Price monitoring, enriching machine learning models, financial data aggregation, monitoring consumer sentiment, news tracking.</p>
+                                   
+                                <h3>Web Scraping Package</h3>
+                              
+                       
+                                <p style="color: black;">Web scrapng of dynamic and static sites and delivered as xml, csv or text files.</p>
+                                
+                                <h3>Web Parsing Packages</h3>
+                                <p style="color: black;">Raw scraped data cleaned, edited filtered and formated as desired avalible as xml, csv or text files.</p>    
+							</div>
+
+							<div id ="Pricing" class="tabcontent">
+								<h2>Web Scraping and Parsing Pricing</h2>
+                                <p style="color: black;"> Web scraping is a necessisity for a comprehensive digital presence. The collection of information and essential data from across the Internet, also known as web data extraction, screen scraping, or web harvesting.</p>   
+                                </div>
+                            
+    
+        <script>
+function openO(evt, Name) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(Name).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+    </body>
+
+<footer>
+						   <p style="text-align: center;">Book a consultation or ask about services</p>
+                            <span style="align-items: center;">
+                                    <a href="#portfolio" class="button large scrolly">Request Consultation</a></span>
+					</footer>

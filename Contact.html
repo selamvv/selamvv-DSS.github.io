@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dessie Software Support Contact Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+        
+    <!--Validation form-->
+
+<?php
+$nameErr = $emailErr ="";
+$name = $email = $comment="";
+
+if(isset($_POST['Submit'])) {
+  if (empty($_POST["name"])) {
+    $nameErr = "Name is required";
+  } else {
+    $name = test_input($_POST["name"]);
+  }
+  
+  if (empty($_POST["email"])) {
+    $emailErr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+  }
+
+  if (empty($_POST["comment"])) {
+    $comment = "";
+  } else {
+    $comment = test_input($_POST["comment"]);
+  }
+}
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>       
+<?php
+echo $_SERVER['PHP_SELF'];
+echo "<h2>Your Input has been sent.</h2>" $name;
+?> 
+<!-- Nav -->
+<nav id="nav">
+				<ul class="container">
+					<li><a href="index.html">Services</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+        
+<!-- Contact -->
+<article id="contact" class="wrapper style4">
+    <div class="container medium">
+        <h2>Request Consultation</h2>
+            <p style="font-size: 20px;">Fill in the form with a description of desired services or an inquery.</p>
+    
+            <div class="row">
+            <div class="col-12">    
+                <form  action="https://formspree.io/f/xjvzeqyk"
+  method="POST">
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                            <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <input type="text" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="col-12">
+                        <input type="text" name="subject" id="subject" placeholder="Subject" />
+                    </div>
+                    <div class="col-12">
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-12">
+                    <ul class="actions">
+                        <li><input type="submit" name="submit" value="Submit">  </li>
+                        <li><input type="reset" value="Clear Form" class="alt" /></li>
+                    </ul>
+                    </div>
+                </div>
+                </form>
+            
+            </div>
+            </div>
+
+        <footer>
+            <div class="col-12">
+							<hr />
+							<h3>Find us on ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<hr />
+						</div>
+            <ul id="copyright"><li>&copy; Dessie Digital Services. All rights reserved.</li></ul>
+        </footer>
+    </div>
+</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
