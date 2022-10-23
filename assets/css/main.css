@@ -2370,13 +2370,13 @@ input, select, textarea {
 				.box.style1 {
 					max-width: 32em;
 					margin-left: auto ;
-					margin-right: auto !important;
+					margin-right: auto;
 				}
 
 				.box.style2 {
 					max-width: 32em;
-					margin-left: auto !important;
-					margin-right: auto !important;
+					margin-left: auto;
+					margin-right: auto;
 				}
 
 		/* Wrappers */
