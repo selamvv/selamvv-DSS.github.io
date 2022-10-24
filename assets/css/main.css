@@ -2322,11 +2322,11 @@ input, select, textarea {
 				}
 
 					ul.social li a {
-						top: 0 !important;
+						top: 0;
 					}
 
 						ul.social li a:before {
-							background-color: transparent !important;
+							background-color: transparent;
 						}
 
 		/* Actions */
