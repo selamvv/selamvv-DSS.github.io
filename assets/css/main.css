@@ -115,7 +115,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #43bff0;
 		}
 
 		a img {
@@ -1554,19 +1554,19 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: #555;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: #555;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: #555;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: #555;
 	}
 
 	form ::-moz-focus-inner {
@@ -1676,7 +1676,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		color: #fff !important;
+		color: #fff;
 		text-decoration: none;
 		font-weight: 700;
 		border: 0;
@@ -1698,7 +1698,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: #43bff0;
-			color: #fff !important;
+			color: #fff;
 		}
 
 		input[type="button"]:active,
@@ -1734,7 +1734,7 @@ input, select, textarea {
 			button.alt:hover,
 			.button.alt:hover {
 				background-color: #4f4f4f;
-				color: #fff !important;
+				color: #fff;
 			}
 
 			input[type="button"].alt:active,
@@ -1807,7 +1807,7 @@ input, select, textarea {
 					background-color: #444;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					color: #2E2E2E;
 					display: block;
 					font-size: 26px;
 					height: 48px;
@@ -1952,7 +1952,7 @@ input, select, textarea {
 			font-variant: normal;
 			text-rendering: auto;
 			line-height: 1;
-			text-transform: none !important;
+			text-transform: none;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
 		}
@@ -2078,7 +2078,7 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				color: #fff !important;
+				color: #fff;
 				background: #383838;
 			}
 
