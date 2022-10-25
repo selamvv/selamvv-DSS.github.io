@@ -100,9 +100,9 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
-		font-weight: 300;
-		font-size: 13pt;
+		color:  #3e3e3e;
+		font-weight: 500;
+		font-size: 15pt;
 	}
 
 	a {
